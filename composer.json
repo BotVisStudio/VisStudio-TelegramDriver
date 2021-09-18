@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "VisStudio\\": "src/"
+            "VisStudio\\Drivers\\Telegram": "src/"
         }
     },
     "authors": [
@@ -15,5 +15,7 @@
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require-dev": {
+        "orchestra/testbench": "^6.21"
+    }
 }

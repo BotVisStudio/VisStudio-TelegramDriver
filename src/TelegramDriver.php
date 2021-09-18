@@ -1,8 +1,8 @@
 <?php
 
-namespace VisStudio;
+namespace VisStudio\Drivers\Telegram;
 
-class DriverTelegram
+class TelegramDriver
 {
     protected string $driverName = 'telegram';
 
