@@ -1,0 +1,19 @@
+{
+    "name": "vis-studio/driver-telegram",
+    "description": "Driver for Telegram",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VisStudio\\DriverTelegram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danil Sidorenko",
+            "email": "danilsidorenko00@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
