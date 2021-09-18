@@ -24,7 +24,7 @@ class TelegramServiceProvider extends ServiceProvider
         );
     }
 
-    protected function loadDrivers()
+    public function loadDrivers()
     {
         DriverManager::loadDriver(TelegramDriver::class);
     }
